@@ -1,5 +1,12 @@
-#include <unistd.h>
+#include "main.h"
 
-/** putchar outputs into universal stdout **/
-
-int _putchar(char);
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    print_alphabet();
+    return (0);
+}
