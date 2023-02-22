@@ -1,9 +1,9 @@
 #include "putchar.h"
 
 /**
- * 0x02-putchar
+ * main - prints _putchar as a message.
  *
- * Always return 0
+ * Return: Always return 0 (success)
  *
  */
 int main(void)
