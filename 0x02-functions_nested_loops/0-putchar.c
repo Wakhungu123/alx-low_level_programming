@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
+	int str[] = {95,112,117,116,99,104,97,114};
 	
 	int c, size;
 	
-	size = sizeof(str)/sizeof(int);
+	size = sizeof(str) / sizeof(int);
 	for(c = 0; c < size; c++)
 	{
 		_putchar(str[c]);
