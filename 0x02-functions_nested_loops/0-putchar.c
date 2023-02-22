@@ -1,6 +1,10 @@
+#!/bin/bash
 #include "putchar.h"
 
-/* Nested loops */
+/**
+ * 0x02-puthcar
+ * project 1
+ **/
 
 int main(void)
 {
