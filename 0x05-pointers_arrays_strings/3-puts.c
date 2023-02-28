@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
  * _puts - Print string
- * 
  * @str: Parameter
  *
  * Return: always void
