@@ -12,7 +12,9 @@ void print_alphabet(void)
 	char a;
 	
 	a = 97;
-	while(a <= 122)
+	while(a <= z)
+	{
 	printf("%d", a);
 	a++;
+	}
 }
