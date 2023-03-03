@@ -16,6 +16,4 @@ void print_alphabet(void)
 	while (a <= z)
 	printf("%d", a);
 	a++;
-
-	return 0;
 }
