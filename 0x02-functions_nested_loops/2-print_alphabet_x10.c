@@ -2,16 +2,20 @@
 
 /**
  * print_alphabet_x10 - Print alphabet in lowercase
- * @a: parameters
  *
  * Return: always 0
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-	char a;
+	char mn;
 
-	for('a' = 97; 'a' <= 'z'; a++)
-	printf("%d", 'a'); a, b, c,.....z;
-	
-	return 0;
+	int i = 0;
+
+	while (i < 10)
+	{
+		for (mn = 'a'; mn <= 'z'; mn++)
+		_putchar(mn);
+	}
+	_putchar('\n');
+	i++;
 }
