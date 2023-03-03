@@ -9,10 +9,11 @@
  */
 void print_alphabet(void)
 {
-	char a;
-	
+	char a, z;
+
 	a = 97;
-	while(a <= z)
+	z = 122;
+	while (a <= z)
 	printf("%d", a);
 	a++;
 }
