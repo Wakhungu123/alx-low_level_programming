@@ -13,8 +13,6 @@ void print_alphabet(void)
 	
 	a = 97;
 	while(a <= z)
-	{
 	printf("%d", a);
 	a++;
-	}
 }
